@@ -684,6 +684,7 @@ contract PulseTrailerPark is ERC20, Ownable {
 
     // address public router = 0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D; // Goerli Testnet
     address public router = 0x636f6407B90661b73b1C0F7e24F4C79f624d0738; // Pulse chain Testnet
+    // address public router = 0x98bf93ebf5c380C0e6Ae8e192A7e2AE08edAcc02; // Pulse chain mainnet
 
     IPulseXRouter02 private plxV2Router;
     address public plxV2Pair;
