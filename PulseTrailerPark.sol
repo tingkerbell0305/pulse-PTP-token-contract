@@ -703,7 +703,7 @@ contract PulseTrailerPark is ERC20, Ownable {
     mapping(address => bool) public isExcludedFee;
     mapping (address => bool) public isWhitelist;
 
-    constructor() ERC20("Pulse Trailer Park", "PTP8") {
+    constructor() ERC20("Pulse Trailer Park", "PTP") {
         
         BUY_TAX_FEE = 10_00; //10%
         SELL_TAX_FEE = 30_00; //30%
